@@ -370,11 +370,12 @@ h2 {
 
 .team-member-container {
     margin: auto;
-    width: 1080px;
+    max-width: 1080px;
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr;
     place-items: center;
+    align-items: center;
     margin-bottom: 100px;
 }
 
